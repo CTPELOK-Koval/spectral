@@ -6,7 +6,64 @@ body
 
 
 .banner
-  background-color #bebebe
+  background -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/banner.jpg)
+  background-size cover
+  background-attachment fixed
+  background-position center
+  height 100vh
+
+.banner__title
+  padding-top 11.5rem
+  text-align center
+  color white
+  text-transform uppercase
+  letter-spacing 0.2rem
+  padding-right 1.88rem
+  padding-left 1.88rem
+  & .banner__description
+    line-height 1.7rem
+  & .link
+    color white
+    text-decoration none
+    border-bottom 0.06rem dotted
+    &:visited
+      color white
+    &:hover
+      border-bottom none
+      cursor pointer
+h2
+  font-size 2rem
+  font-weight bold
+
+.banner__title-border
+  padding 1.25rem
+  border-top 0.13rem solid white
+  border-bottom 0.13rem solid white
+  margin 0 auto 1.85rem
+  width 16.5rem
+  
+.banner__link-activate
+  margin 2.5rem auto
+  padding 0.62rem 0
+  background-color #ed4933
+  font-size 0.85rem
+  max-width 10rem
+  border-radius 0.19rem
+  &:hover
+    background-color coral
+    -webkit-transition: background 0.4s ease-in
+    cursor pointer
+
+.banner__rollout
+  padding-top 4.5rem
+  text-decoration none
+  font-size 0.8rem
+  & .link
+    border-bottom 0rem
+
+.arrow-rollout
+  max-width 1.2rem
+  padding-top 1.5rem
 
 .content
   background-color #dedede
@@ -14,4 +71,15 @@ body
 .pic1
   background url(./img/pic01.jpg)
   background-size cover
-  padding 50px
+  padding 3.13rem
+  
+.pic2
+  background url(./img/pic02.jpg)
+  background-size cover
+  padding 3.13rem
+  
+.pic3
+  background url(./img/pic03.jpg)
+  background-size cover
+  padding 3.13rem
+  
