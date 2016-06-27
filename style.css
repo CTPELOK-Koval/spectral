@@ -867,7 +867,7 @@ body {
   border-bottom: none;
   cursor: pointer;
 }
-h2 {
+.banner__title-name {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -880,10 +880,10 @@ h2 {
 }
 .banner__link-activate {
   margin: 2.5rem auto;
-  padding: 0.62rem 0;
+  padding: 1rem 0;
   background-color: #ed4933;
   font-size: 0.85rem;
-  max-width: 10rem;
+  max-width: 10.1rem;
   border-radius: 0.19rem;
 }
 .banner__link-activate:hover {
@@ -904,20 +904,88 @@ h2 {
   padding-top: 1.5rem;
 }
 .content {
-  background-color: #dedede;
+  background-color: #21b2a6;
+  text-align: center;
+  color: #fff;
 }
-.pic1 {
-  background: url("./img/pic01.jpg");
-  background-size: cover;
-  padding: 3.13rem;
+.content__description {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
-.pic2 {
-  background: url("./img/pic02.jpg");
-  background-size: cover;
-  padding: 3.13rem;
+.content__description-text {
+  color: #c7ebe8;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
 }
-.pic3 {
-  background: url("./img/pic03.jpg");
-  background-size: cover;
-  padding: 3.13rem;
+.content__title,
+.content letter-spacing 0.2rem {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 2.81rem;
+}
+.content__title__border,
+.content letter-spacing 0.2rem__border {
+  border-bottom: 0.13rem solid rgba(0,0,0,0.125);
+  padding: 6.25rem 0 1rem;
+  margin-bottom: 1rem;
+  max-width: 50rem;
+}
+.content__square-image {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7rem;
+}
+.content__square-image_link {
+  width: 4.9rem;
+  height: 4.9rem;
+  border: 2px solid rgba(0,0,0,0.125);
+  border-radius: 0.19rem;
+  transform: rotate(-45deg);
+  font-size: 2.5rem;
+  padding-top: 1.05rem;
+}
+.content__square-image_link i {
+  transform: rotate(45deg);
+}
+.content__square-image_link .content__square-image_link_diamond {
+  color: #0fc;
+}
+.content__square-image_link .content__square-image_link_heart {
+  color: #00f0ff;
+}
+.content__square-image_link .content__square-image_link_code {
+  color: #76ddff;
+}
+.row-content {
+  background-color: #2e3842;
+}
+.row-content__image,
+.row-content__description {
+  padding: 0;
+  margin: 0;
+}
+.row-content__image_computer {
+  background-color: rgba(0,0,0,0.075);
+}
+.row-content__image_mountain {
+  background-color: rgba(0,0,0,0.15);
+}
+.row-content__image_nature {
+  background-color: rgba(0,0,0,0.225);
+}
+.row-content__image__item {
+  width: 500px;
+}
+.row-content__description {
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+.row-content__description_title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 2.81rem;
+  letter-spacing: 0.2rem;
 }

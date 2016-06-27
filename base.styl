@@ -31,23 +31,22 @@ body
     &:hover
       border-bottom none
       cursor pointer
-h2
-  font-size 2rem
-  font-weight bold
-
-.banner__title-border
-  padding 1.25rem
-  border-top 0.13rem solid white
-  border-bottom 0.13rem solid white
-  margin 0 auto 1.85rem
-  width 16.5rem
+  &-name
+    font-size 2rem
+    font-weight bold
+  &-border
+    padding 1.25rem
+    border-top 0.13rem solid white
+    border-bottom 0.13rem solid white
+    margin 0 auto 1.85rem
+    width 16.5rem
   
 .banner__link-activate
   margin 2.5rem auto
-  padding 0.62rem 0
+  padding 1rem 0
   background-color #ed4933
   font-size 0.85rem
-  max-width 10rem
+  max-width 10.1rem
   border-radius 0.19rem
   &:hover
     background-color coral
@@ -65,21 +64,83 @@ h2
   max-width 1.2rem
   padding-top 1.5rem
 
+
+
+
 .content
-  background-color #dedede
+  background-color #21b2a6
+  text-align center
+  color white
+  &__description
+    padding-top 1rem
+    padding-bottom 5rem
+    &-text
+      color #c7ebe8
+      line-height 1.5rem
+      font-size 1.1rem
+      letter-spacing 0.05rem
+  &__title, 
+    letter-spacing 0.2rem
+    font-size 1.5rem
+    text-transform uppercase
+    font-weight bold
+    line-height 2.81rem
+    &__border
+      border-bottom 0.13rem solid rgba(black,.125)
+      padding 6.25rem 0 1rem
+      margin-bottom 1rem
+      max-width 50rem
+
+
+.content__square-image
+  display flex
+  justify-content space-between
+  padding-bottom 7rem
+  &_link
+    width 4.9rem
+    height 4.9rem
+    border 2px solid rgba(black,.125)
+    border-radius 0.19rem
+    transform rotate(-45deg)
+    font-size 2.5rem
+    padding-top 1.05rem
+    & i
+      transform rotate(45deg)
+    & .content__square-image_link_diamond
+      color #00ffcc
+    & .content__square-image_link_heart
+      color #00f0ff
+    & .content__square-image_link_code
+      color #76ddff
+
+
+
+.row-content
+  background-color #2e3842
+
+.row-content__image, .row-content__description
+  padding 0
+  margin 0
   
-.pic1
-  background url(./img/pic01.jpg)
-  background-size cover
-  padding 3.13rem
+.row-content__image_computer
+  background-color rgba(0, 0, 0, 0.075)
   
-.pic2
-  background url(./img/pic02.jpg)
-  background-size cover
-  padding 3.13rem
+.row-content__image_mountain
+  background-color rgba(0, 0, 0, 0.15)
   
-.pic3
-  background url(./img/pic03.jpg)
-  background-size cover
-  padding 3.13rem
+.row-content__image_nature
+  background-color rgba(0, 0, 0, 0.225)
+
+.row-content__image__item
+  width 500px
   
+
+.row-content__description
+  color white
+  letter-spacing 0.1rem
+  &_title
+    font-size 1.5rem
+    text-transform uppercase
+    font-weight bold
+    line-height 2.81rem
+    letter-spacing 0.2rem
