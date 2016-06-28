@@ -153,6 +153,7 @@ body
 .article
   margin-top -0.19rem
   background-color #505393
+  padding-bottom 5rem
   
 .article-content
   &__link
@@ -169,54 +170,12 @@ body
       display block
       text-transform uppercase
       padding 3.75rem 0 1.88rem
-      &_icon-fly
-        &::before
-          font-family FontAwesome
-          content: "\f1d9"
-          margin-left -1rem
-          padding-right 1rem
-          font-size 1.5rem
-          color #00ffcc
-      &_icon-laptop
-        &::before
-          font-family FontAwesome
-          content: "\f109"
-          margin-left -1rem
-          padding-right 1rem
-          font-size 1.5rem
-          color #00ffcc
-      &_icon-code
-        &::before
-          font-family FontAwesome
-          content: "\f121"
-          margin-left -1rem
-          padding-right 1rem
-          font-size 1.5rem
-          color #00ffcc
-      &_icon-headphones
-        &::before
-          font-family FontAwesome
-          content: "\f025"
-          margin-left -1rem
-          padding-right 1rem
-          font-size 1.5rem
-          color #00ffcc
-      &_icon-heart
-        &::before
-          font-family FontAwesome
-          content: "\f08a"
-          margin-left -1rem
-          padding-right 1rem
-          font-size 1.5rem
-          color #00ffcc
-      &_icon-flag
-        &::before
-          font-family FontAwesome
-          content: "\f11d"
-          margin-left -1rem
-          padding-right 1rem
-          font-size 1.5rem
-          color #00ffcc
+      &::before
+        font-family FontAwesome
+        margin-left -1rem
+        padding-right 1rem
+        font-size 1.5rem
+        color #00ffcc
     &_description
       line-height 1.5rem
       letter-spacing 0.05rem
@@ -224,3 +183,23 @@ body
       padding-bottom 3.75rem
       &:nth-child(2)
         padding-left 1.88rem
+
+.icon
+  &-fly
+    &::before
+      content: "\f1d9"
+  &-laptop
+    &::before
+      content: "\f109"
+  &-code
+    &::before
+      content: "\f121"
+  &-headphones
+    &::before
+      content: "\f025"
+  &-heart
+    &::before
+      content: "\f08a"
+  &-flag
+    &::before
+      content: "\f11d"

@@ -1011,6 +1011,7 @@ body {
 .article {
   margin-top: -0.19rem;
   background-color: #505393;
+  padding-bottom: 5rem;
 }
 .article-content__link {
   max-width: 1040px;
@@ -1029,49 +1030,8 @@ body {
   text-transform: uppercase;
   padding: 3.75rem 0 1.88rem;
 }
-.article-content__item_header_icon-fly::before {
+.article-content__item_header::before {
   font-family: FontAwesome;
-  content: "\f1d9";
-  margin-left: -1rem;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  color: #0fc;
-}
-.article-content__item_header_icon-laptop::before {
-  font-family: FontAwesome;
-  content: "\f109";
-  margin-left: -1rem;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  color: #0fc;
-}
-.article-content__item_header_icon-code::before {
-  font-family: FontAwesome;
-  content: "\f121";
-  margin-left: -1rem;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  color: #0fc;
-}
-.article-content__item_header_icon-headphones::before {
-  font-family: FontAwesome;
-  content: "\f025";
-  margin-left: -1rem;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  color: #0fc;
-}
-.article-content__item_header_icon-heart::before {
-  font-family: FontAwesome;
-  content: "\f08a";
-  margin-left: -1rem;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  color: #0fc;
-}
-.article-content__item_header_icon-flag::before {
-  font-family: FontAwesome;
-  content: "\f11d";
   margin-left: -1rem;
   padding-right: 1rem;
   font-size: 1.5rem;
@@ -1085,4 +1045,22 @@ body {
 }
 .article-content__item_description:nth-child(2) {
   padding-left: 1.88rem;
+}
+.icon-fly::before {
+  content: "\f1d9";
+}
+.icon-laptop::before {
+  content: "\f109";
+}
+.icon-code::before {
+  content: "\f121";
+}
+.icon-headphones::before {
+  content: "\f025";
+}
+.icon-heart::before {
+  content: "\f08a";
+}
+.icon-flag::before {
+  content: "\f11d";
 }
