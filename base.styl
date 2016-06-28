@@ -79,7 +79,7 @@ body
       line-height 1.5rem
       font-size 1.1rem
       letter-spacing 0.05rem
-  &__title, 
+  &__title
     letter-spacing 0.2rem
     font-size 1.5rem
     text-transform uppercase
@@ -90,7 +90,6 @@ body
       padding 6.25rem 0 1rem
       margin-bottom 1rem
       max-width 50rem
-
 
 .content__square-image
   display flex
@@ -113,10 +112,25 @@ body
     & .content__square-image_link_code
       color #76ddff
 
-
-
 .row-content
   background-color #2e3842
+  &__description
+    color white
+    letter-spacing 0.1rem
+    &_header
+      padding-top 100px
+      padding-left 50px
+      padding-bottom 15px
+    &_text
+      padding-left 50px
+      padding-right 105px
+      line-height 30px
+    &_title
+      font-size 1.5rem
+      text-transform uppercase
+      font-weight bold
+      line-height 2.81rem
+      letter-spacing 0.2rem
 
 .row-content__image, .row-content__description
   padding 0
@@ -133,14 +147,6 @@ body
 
 .row-content__image__item
   width 500px
-  
+  &-right
+    float right
 
-.row-content__description
-  color white
-  letter-spacing 0.1rem
-  &_title
-    font-size 1.5rem
-    text-transform uppercase
-    font-weight bold
-    line-height 2.81rem
-    letter-spacing 0.2rem

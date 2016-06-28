@@ -918,15 +918,14 @@ body {
   font-size: 1.1rem;
   letter-spacing: 0.05rem;
 }
-.content__title,
-.content letter-spacing 0.2rem {
+.content__title {
+  letter-spacing: 0.2rem;
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 2.81rem;
 }
-.content__title__border,
-.content letter-spacing 0.2rem__border {
+.content__title__border {
   border-bottom: 0.13rem solid rgba(0,0,0,0.125);
   padding: 6.25rem 0 1rem;
   margin-bottom: 1rem;
@@ -961,6 +960,27 @@ body {
 .row-content {
   background-color: #2e3842;
 }
+.row-content__description {
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+.row-content__description_header {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+.row-content__description_text {
+  padding-left: 50px;
+  padding-right: 105px;
+  line-height: 30px;
+}
+.row-content__description_title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 2.81rem;
+  letter-spacing: 0.2rem;
+}
 .row-content__image,
 .row-content__description {
   padding: 0;
@@ -978,14 +998,6 @@ body {
 .row-content__image__item {
   width: 500px;
 }
-.row-content__description {
-  color: #fff;
-  letter-spacing: 0.1rem;
-}
-.row-content__description_title {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 2.81rem;
-  letter-spacing: 0.2rem;
+.row-content__image__item-right {
+  float: right;
 }
